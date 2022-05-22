@@ -1,0 +1,64 @@
+# Let's remove these from commits
+
+*.bak
+*.log
+*.php
+*.psd
+*.tmp
+*.dxvk-cache
+
+# Extensions for build artifacts that can be ignored
+*.exp
+*.idb
+*.ilk
+*.obj
+*.pch
+*.pdb
+*.plg
+*.res
+*.sbr
+
+# Build generated files/directories
+Stable/CannibalEditor/Release/
+Stable/CannibalEditor/Debug/
+Stable/D3DDrv/Lib/
+Stable/D3DDrv/Src/Debug/
+Stable/Editor/Lib/
+Stable/Engine/Lib/Engine.lib
+Stable/Fire/Lib/
+Stable/Galaxy/Lib/Galaxy.lib
+Stable/GalaxyLib/Debug/
+Stable/Imp3DS/Release/
+Stable/ImpBP2/Release/
+Stable/ImpGMA/Release/
+Stable/ImpLWO/Release/
+Stable/ImpMDX/Release/
+Stable/Imp3DS/Debug/
+Stable/ImpBP2/Debug/
+Stable/ImpGMA/Debug/
+Stable/ImpLWO/Debug/
+Stable/ImpMDX/Debug/
+Stable/SoftDrv/Lib/
+Stable/UWeb/Lib/
+Stable/UWeb/System/
+Stable/xcore/obj/
+Stable/xcore/*.lib
+Stable/Cannibal/Release/
+Stable/Cannibal/Debug/
+Stable/Engine/Src/Release/
+Stable/GalaxyLib/GalaxyLib___Win32_Release/
+Stable/Duke4.ncb
+
+# Then ignore these folders/files
+
+meows/*
+_Backups/*
+_Tests/*
+Stable/Players/*
+Stable/System/*.u
+Stable/System/System.ini
+/Unstable
+Stable/System/dsoundlog.txt
+# Stable/System/DukeEd.ini # DON'T DO THIS, IT'LL BREAK THE EDITOR.
+Stable/System/Running.ini
+/Stable/System/tempedit.mac
